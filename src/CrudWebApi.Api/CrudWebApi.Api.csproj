@@ -17,7 +17,7 @@
         <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
         <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
         <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
     </ItemGroup>
 
     <ItemGroup>
@@ -29,7 +29,7 @@
     <ItemGroup>
       <ProjectReference Include="..\CrudWebApi.Application\CrudWebApi.Application.csproj" />
       <ProjectReference Include="..\CrudWebApi.Domain\CrudWebApi.Domain.csproj" />
-      <ProjectReference Include="..\CrudWebApi.nfrastructure\CrudWebApi.nfrastructure.csproj" />
+      <ProjectReference Include="..\CrudWebApi.Infrastructure\CrudWebApi.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

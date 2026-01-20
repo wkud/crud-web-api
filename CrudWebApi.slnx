@@ -8,5 +8,5 @@
   <Project Path="src/CrudWebApi.Api/CrudWebApi.Api.csproj" />
   <Project Path="src/CrudWebApi.Application/CrudWebApi.Application.csproj" />
   <Project Path="src/CrudWebApi.Domain/CrudWebApi.Domain.csproj" />
-  <Project Path="src/CrudWebApi.nfrastructure/CrudWebApi.nfrastructure.csproj" />
+  <Project Path="src/CrudWebApi.Infrastructure/CrudWebApi.Infrastructure.csproj" />
 </Solution>
