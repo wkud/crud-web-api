@@ -1,0 +1,7 @@
+﻿services:
+  crudwebapi.api:
+    image: crudwebapi.api
+    build:
+      context: .
+      dockerfile: src/CrudWebApi.Api/Dockerfile
+
